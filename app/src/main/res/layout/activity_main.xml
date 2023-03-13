@@ -11,15 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign in"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="464dp" />
+        app:layout_constraintBottom_toTopOf="@+id/signupButton"
+        tools:layout_editor_absoluteX="160dp" />
 
     <Button
         android:id="@+id/signupButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Signup"
+        android:text="Sign up"
         tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="527dp" />
+        tools:layout_editor_absoluteY="524dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
