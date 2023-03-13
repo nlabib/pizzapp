@@ -7,32 +7,19 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/signin"
+        android:id="@+id/signinButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign in"
         tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="451dp" />
+        tools:layout_editor_absoluteY="464dp" />
 
-    <LinearLayout
-        android:layout_width="415dp"
-        android:layout_height="129dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="156dp">
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="527dp" />
 
-        <EditText
-            android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textEmailAddress" />
-
-        <EditText
-            android:id="@+id/editTextTextPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
