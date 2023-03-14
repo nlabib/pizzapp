@@ -3,12 +3,13 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    namespace 'com.example.prototype'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.pizzaapp"
+        applicationId "com.example.prototype"
         minSdk 19
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
