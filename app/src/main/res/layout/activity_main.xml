@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/background1">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -34,7 +35,7 @@
         android:text="@string/italian_owls"
         android:textColor="#000000"
         android:textSize="34sp"
-        app:layout_constraintEnd_toStartOf="@+id/imageLogo"
+        app:layout_constraintEnd_toStartOf="@+id/italianOwlLogo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
@@ -46,22 +47,22 @@
             android:layout_marginBottom="64dp"
             android:text="@string/pizza_for_everyone"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-            app:layout_constraintEnd_toStartOf="@+id/imageLogo"
+            app:layout_constraintEnd_toStartOf="@+id/italianOwlLogo"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <ImageView
-            android:id="@+id/imageLogo"
+            android:id="@+id/italianOwlLogo"
             android:layout_width="144dp"
             android:layout_height="145dp"
             android:layout_marginEnd="16dp"
-            android:contentDescription="TODO"
+            android:contentDescription="pizzalogo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/toolbar"
             app:srcCompat="@drawable/pizza_logo"
-            tools:ignore="ContentDescription" />
+            tools:ignore="ContentDescription,HardcodedText" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -71,7 +72,7 @@
         android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageLogo">
+        app:layout_constraintTop_toBottomOf="@+id/italianOwlLogo">
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
@@ -83,7 +84,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:clickable="true">
 
                 <TextView
                     android:id="@+id/textOrder"
@@ -117,7 +119,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:clickable="true">
 
                 <TextView
                     android:id="@+id/textTrack"
@@ -165,7 +168,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:clickable="true">
 
                 <TextView
                     android:id="@+id/textOrderHistory"
@@ -201,7 +205,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:clickable="true">
 
                 <TextView
                     android:id="@+id/textSupport"
@@ -247,7 +252,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:clickable="true">
 
                 <TextView
                     android:id="@+id/textProfile"
@@ -268,6 +274,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginEnd="9dp"
                     android:layout_marginBottom="8dp"
+                    android:clickable="false"
                     app:srcCompat="@drawable/profile_square"
                     tools:ignore="ImageContrastCheck" />
 
@@ -283,7 +290,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:clickable="true">
 
                 <TextView
                     android:id="@+id/textFavorite"
