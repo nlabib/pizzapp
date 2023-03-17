@@ -3,5 +3,7 @@
     <string name="italian_owls">Italian Owls</string>
     <string name="pizza_for_everyone">Pizza for Everyone</string>
     <string name="pizza">Pizza</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
 
 </resources>
