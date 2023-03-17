@@ -3,9 +3,11 @@ package com.example.prototype;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
-
+import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
-import android.widget.Toolbar;
+
+
+
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         //navigation menu//
 
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle()
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle();
 
     }
 }
