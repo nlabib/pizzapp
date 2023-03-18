@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.transition:transition:1.2.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/cf7ed2c7db25c1ed83dad3026c9a2688/transformed/transition-1.2.0/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3d01702abde441ec3929e9b93bdc6183/transformed/transition-1.2.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3172ca70c9a70247a5da399c521d5256/transformed/transition-1.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/cf7ed2c7db25c1ed83dad3026c9a2688/transformed/transition-1.2.0/res" />
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/cf7ed2c7db25c1ed83dad3026c9a2688/transformed/transition-1.2.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/cf7ed2c7db25c1ed83dad3026c9a2688/transformed/transition-1.2.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3d01702abde441ec3929e9b93bdc6183/transformed/transition-1.2.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3d01702abde441ec3929e9b93bdc6183/transformed/transition-1.2.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3d01702abde441ec3929e9b93bdc6183/transformed/transition-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3172ca70c9a70247a5da399c521d5256/transformed/transition-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3172ca70c9a70247a5da399c521d5256/transformed/transition-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3172ca70c9a70247a5da399c521d5256/transformed/transition-1.2.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

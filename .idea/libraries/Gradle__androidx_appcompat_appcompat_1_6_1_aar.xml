@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.appcompat:appcompat:1.6.1@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/44fc53ad3ef1477fcc7b5dbdbf1cb4c0/transformed/appcompat-1.6.1/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3b8e43298f87263936452c42fdf1541a/transformed/appcompat-1.6.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dc687a14d19eeabd5bfaf0422c3f59a2/transformed/appcompat-1.6.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/44fc53ad3ef1477fcc7b5dbdbf1cb4c0/transformed/appcompat-1.6.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/44fc53ad3ef1477fcc7b5dbdbf1cb4c0/transformed/appcompat-1.6.1/res" />
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/44fc53ad3ef1477fcc7b5dbdbf1cb4c0/transformed/appcompat-1.6.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3b8e43298f87263936452c42fdf1541a/transformed/appcompat-1.6.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3b8e43298f87263936452c42fdf1541a/transformed/appcompat-1.6.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3b8e43298f87263936452c42fdf1541a/transformed/appcompat-1.6.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dc687a14d19eeabd5bfaf0422c3f59a2/transformed/appcompat-1.6.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dc687a14d19eeabd5bfaf0422c3f59a2/transformed/appcompat-1.6.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dc687a14d19eeabd5bfaf0422c3f59a2/transformed/appcompat-1.6.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

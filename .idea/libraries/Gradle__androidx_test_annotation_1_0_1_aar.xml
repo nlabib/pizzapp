@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/b237ee39f4c9654cb1c024e097ffcf60/transformed/annotation-1.0.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/b237ee39f4c9654cb1c024e097ffcf60/transformed/annotation-1.0.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/92d49faa44d4f541e8c688762f045f61/transformed/annotation-1.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/92d49faa44d4f541e8c688762f045f61/transformed/annotation-1.0.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/92d49faa44d4f541e8c688762f045f61/transformed/annotation-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3ab414e9b9dbadffe039b6901a1d137b/transformed/annotation-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3ab414e9b9dbadffe039b6901a1d137b/transformed/annotation-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3ab414e9b9dbadffe039b6901a1d137b/transformed/annotation-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
