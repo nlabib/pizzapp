@@ -6,17 +6,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.widget.Toolbar;
-<<<<<<< HEAD
 import android.os.Bundle;
-
-
-
-=======
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
->>>>>>> origin/main
+
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -45,15 +39,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         //navigation menu//
-<<<<<<< HEAD
 
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle();
-=======
-        navigationView.bringToFront();
+
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        navigationView.bringToFront();
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
->>>>>>> origin/main
+
 
     }
 
