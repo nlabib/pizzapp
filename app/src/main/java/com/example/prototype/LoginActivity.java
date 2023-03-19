@@ -20,7 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         userID = findViewById(R.id.userID);
-        name_Signin = findViewById(R.id.n);
+        name_Signin = findViewById();
         email_Signin = findViewById(R.id.email_Signin);
         phonenumber_Signin = findViewById(R.id.phonenumber_Signin);
         password = findViewById(R.id.password);
@@ -32,7 +32,6 @@ public class LoginActivity extends AppCompatActivity {
                 String email, password;
                 email = userID.getText().toString();
                 name_Signin = name_Signin.getText().toString();
-
                 email_Signin = email_Signin.getText().toString();
                 phonenumber_Signin = phonenumber_Signin.getText().toString();
                 password = password.getText().toString();
