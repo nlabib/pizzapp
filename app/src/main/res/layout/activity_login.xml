@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+
     <ImageView
         android:id="@+id/bg_Login"
         android:layout_width="match_parent"
@@ -15,36 +16,38 @@
         android:src="@drawable/background7__1_"
         tools:ignore="ImageContrastCheck"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="26dp" />
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/sign_in_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aldrich"
+        android:text="Register"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="33sp"
-        android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/bg_Login"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias=".2" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/name_Signin"
+        android:id="@+id/userID"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="48dp"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/baseline_account_box_24"
         android:drawablePadding="13dp"
+        android:hint="Enter Full Name"
         android:minHeight="48dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:hint="Enter Full Name"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sign_in_register"
         app:layout_constraintWidth_percent=".8"
@@ -52,19 +55,20 @@
 
     <EditText
         android:id="@+id/email_Signin"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_width="328dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="164dp"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/baseline_email_24"
         android:drawablePadding="13dp"
-        android:minHeight="48dp"
         android:hint="Enter Your Email Address"
+        android:minHeight="48dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name_Signin"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent=".8"
         tools:ignore="VisualLintTextFieldSize" />
 
@@ -76,56 +80,59 @@
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/baseline_phone_24"
         android:drawablePadding="13dp"
+        android:hint="Enter Phone Number"
         android:inputType="phone"
         android:minHeight="48dp"
-        android:hint="Enter Phone Number"
         android:textColor="@color/white"
         android:textColorHint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/bg_Login"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_Signin"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.019"
         app:layout_constraintWidth_percent=".8"
         tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
 
     <EditText
-        android:id="@+id/password_toggle"
+        android:id="@+id/password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/baseline_password_24"
         android:drawablePadding="13dp"
+        android:hint="Set a Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
-        android:hint="Set a Password"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phonenumber_Signin"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.092"
         app:layout_constraintWidth_percent=".8"
         tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
-
 
     <EditText
         android:id="@+id/editTextAddress"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="272dp"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/baseline_add_home_24"
         android:drawablePadding="13dp"
+        android:hint="Enter Your Address"
         android:inputType="textPostalAddress"
         android:minHeight="48dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:hint="Enter Your Address"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_toggle"
         app:layout_constraintVertical_bias="0.0"
@@ -145,10 +152,9 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextAddress"
-        app:layout_constraintVertical_bias="0.335"
+        app:layout_constraintVertical_bias="0.475"
         tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
 
     <TextView

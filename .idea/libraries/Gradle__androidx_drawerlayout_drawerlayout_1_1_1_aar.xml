@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.drawerlayout:drawerlayout:1.1.1@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/7bc7a5b48c08c285c7816e5896abfab2/transformed/drawerlayout-1.1.1/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7feb9efd5aa837e7be68f010357090ce/transformed/drawerlayout-1.1.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7ab12cd236a97e0862a2d59940207cc9/transformed/drawerlayout-1.1.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/7bc7a5b48c08c285c7816e5896abfab2/transformed/drawerlayout-1.1.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/7bc7a5b48c08c285c7816e5896abfab2/transformed/drawerlayout-1.1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/7bc7a5b48c08c285c7816e5896abfab2/transformed/drawerlayout-1.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7feb9efd5aa837e7be68f010357090ce/transformed/drawerlayout-1.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7feb9efd5aa837e7be68f010357090ce/transformed/drawerlayout-1.1.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7feb9efd5aa837e7be68f010357090ce/transformed/drawerlayout-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7ab12cd236a97e0862a2d59940207cc9/transformed/drawerlayout-1.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7ab12cd236a97e0862a2d59940207cc9/transformed/drawerlayout-1.1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7ab12cd236a97e0862a2d59940207cc9/transformed/drawerlayout-1.1.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
