@@ -16,10 +16,6 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    //SOMETHING
-   //Testing Commenting
-
-    
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -30,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         //Hooks//
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -44,15 +39,12 @@ public class MainActivity extends AppCompatActivity {
 
         //navigation menu//
 
-
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         navigationView.bringToFront();
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
-
     }
-
     @Override
     public void onBackPressed() {
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
