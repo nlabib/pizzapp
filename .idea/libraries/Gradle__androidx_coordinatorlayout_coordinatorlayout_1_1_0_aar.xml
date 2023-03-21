@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/8255cf8f73e0ec2d884b3aa8102e6cd4/transformed/coordinatorlayout-1.1.0/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7e345e9e169c17b54a0a56c7a883905e/transformed/coordinatorlayout-1.1.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3f975666c5827ad68b250051196f231a/transformed/coordinatorlayout-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/8255cf8f73e0ec2d884b3aa8102e6cd4/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/8255cf8f73e0ec2d884b3aa8102e6cd4/transformed/coordinatorlayout-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/8255cf8f73e0ec2d884b3aa8102e6cd4/transformed/coordinatorlayout-1.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7e345e9e169c17b54a0a56c7a883905e/transformed/coordinatorlayout-1.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7e345e9e169c17b54a0a56c7a883905e/transformed/coordinatorlayout-1.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7e345e9e169c17b54a0a56c7a883905e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3f975666c5827ad68b250051196f231a/transformed/coordinatorlayout-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3f975666c5827ad68b250051196f231a/transformed/coordinatorlayout-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3f975666c5827ad68b250051196f231a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

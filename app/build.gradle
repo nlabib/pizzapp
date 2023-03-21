@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.prototype'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.prototype"
         minSdk 19
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -30,7 +30,7 @@ android {
 }
 
 dependencies {
-
+    implementation 'com.android.support:multidex:1.0.3'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'

@@ -2,15 +2,15 @@
   <library name="Gradle: com.google.android.material:material:1.8.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/1d6008e40b174b18ef5fa9ea4cd35014/transformed/material-1.8.0/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4b15628292246c7e0e5b4f45880368d1/transformed/material-1.8.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9e50aac4333e83e478c52c2d0278e186/transformed/material-1.8.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/1d6008e40b174b18ef5fa9ea4cd35014/transformed/material-1.8.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/1d6008e40b174b18ef5fa9ea4cd35014/transformed/material-1.8.0/res" />
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/1d6008e40b174b18ef5fa9ea4cd35014/transformed/material-1.8.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4b15628292246c7e0e5b4f45880368d1/transformed/material-1.8.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4b15628292246c7e0e5b4f45880368d1/transformed/material-1.8.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4b15628292246c7e0e5b4f45880368d1/transformed/material-1.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9e50aac4333e83e478c52c2d0278e186/transformed/material-1.8.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9e50aac4333e83e478c52c2d0278e186/transformed/material-1.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9e50aac4333e83e478c52c2d0278e186/transformed/material-1.8.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

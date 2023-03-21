@@ -8,35 +8,25 @@ import android.view.View;
 import android.widget.Button;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
 
-    TextInputEditText userID, name_Signin, email_Signin, phonenumber_Signin, password, editTextAddress;
+    String userID, name_Signin, email_Signin, phonenumber_Signin, password, editTextAddress;
     Button buttonReg;
 
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        userID = findViewById(R.id.userID);
-        name_Signin = findViewById();
-        email_Signin = findViewById(R.id.email_Signin);
-        phonenumber_Signin = findViewById(R.id.phonenumber_Signin);
-        password = findViewById(R.id.password);
-        editTextAddress = findViewById(R.id.editTextAddress);
-
-        buttonReg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String email, password;
-                email = userID.getText().toString();
-                name_Signin = name_Signin.getText().toString();
-                email_Signin = email_Signin.getText().toString();
-                phonenumber_Signin = phonenumber_Signin.getText().toString();
-                password = password.getText().toString();
-                editTextAddress = editTextAddress.getText().toString();
-            }
-        });
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+        mAuth.createUserWithEmailAndPassword(email_Signin, password)
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        // User account created successfully
+                    } else {
+                        // User account creation failed
+                    }
+                });
     }
 }
