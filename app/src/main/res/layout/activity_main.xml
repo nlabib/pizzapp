@@ -268,7 +268,8 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:clickable="true">
+                        android:clickable="true"
+                        android:onClick = "onProfileClick">
 
                         <TextView
                             android:id="@+id/textProfile"

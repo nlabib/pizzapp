@@ -10,9 +10,12 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 
 import com.google.android.material.navigation.NavigationView;
+
+import kotlinx.coroutines.ObsoleteCoroutinesApi;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -64,11 +67,14 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_home:
                 break;
             case R.id.nav_login:
-                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-                startActivity(intent);
+               // startActivity(new Intent(this, LoginActivity.class));
                 break;
         }
 
         return true;
+    }
+
+    public void onProfileClick(View view) {
+        startActivity(new Intent(this, LoginActivity.class));
     }
 }
