@@ -20,7 +20,7 @@
                 android:layout_height="350sp"
                 android:rotation="90"
                 android:layout_marginTop="-70sp"
-                android:src="@drawable/back" />
+                android:src="@drawable/circle" />
 
             <ImageView
                 android:id="@+id/pizzaImage"
