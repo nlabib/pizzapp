@@ -2,16 +2,13 @@ package com.example.prototype;
 
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.example.prototype.models.Extras;
 import com.example.prototype.models.PizzaModel;
 import com.google.android.material.checkbox.MaterialCheckBox;
-
 import java.util.ArrayList;
 
 
@@ -46,6 +43,7 @@ public class ProductDetailActivity extends AppCompatActivity {
         quant = findViewById(R.id.quantityText);
         addToCart = findViewById(R.id.addToCart);
 
+        //Food
         tomato = findViewById(R.id.tomato);
         salami = findViewById(R.id.salami);
         sausage = findViewById(R.id.sausage);
@@ -57,6 +55,8 @@ public class ProductDetailActivity extends AppCompatActivity {
         coke = findViewById(R.id.coke);
         water = findViewById(R.id.water);
 
+        //Food Prices
+        
         tomatoEX = new Extras("Tomato", 1.5);
         salamiEX = new Extras("Salami", 2.5);
         sausageEX = new Extras("Sausage", 2.5);

@@ -68,9 +68,7 @@ public class MainActivity extends AppCompatActivity {
     public void setSupportActionBar(Toolbar toolbar) {
     }
 
-
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-
         switch (menuItem.getItemId()) {
             case R.id.nav_home:
                 break;
@@ -78,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
                // startActivity(new Intent(this, LoginActivity.class));
                 break;
         }
-
         return true;
     }
 

@@ -3,10 +3,15 @@
     <CLASSES>
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/b788daba8c116898095b6fefa8405671/transformed/core-ktx-1.2.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/b788daba8c116898095b6fefa8405671/transformed/core-ktx-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c334a44783512236e2bceec41353e47e/transformed/core-ktx-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7f1e85261dab26369c8f209c23d5f8a0/transformed/core-ktx-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7f1e85261dab26369c8f209c23d5f8a0/transformed/core-ktx-1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7f1e85261dab26369c8f209c23d5f8a0/transformed/core-ktx-1.2.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/modules-2/files-2.1/androidx.core/core-ktx/1.2.0/75eb613f7dec270f611d0adff5fcb0e8b617fe0a/core-ktx-1.2.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core-ktx/1.2.0/75eb613f7dec270f611d0adff5fcb0e8b617fe0a/core-ktx-1.2.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

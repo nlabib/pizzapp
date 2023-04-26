@@ -3,10 +3,15 @@
     <CLASSES>
       <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/0d9ec09d9abdb5c45784fa99ce53ba89/transformed/tracing-1.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/0d9ec09d9abdb5c45784fa99ce53ba89/transformed/tracing-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dc7de63ab8823a47bf61baaa6979a6e2/transformed/tracing-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/897338a56dab6d956ae6c8e0b7573424/transformed/tracing-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/897338a56dab6d956ae6c8e0b7573424/transformed/tracing-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/897338a56dab6d956ae6c8e0b7573424/transformed/tracing-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/modules-2/files-2.1/androidx.tracing/tracing/1.0.0/aa6dafdce323d80a993c5427cf81d5072f023c8c/tracing-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.tracing/tracing/1.0.0/aa6dafdce323d80a993c5427cf81d5072f023c8c/tracing-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

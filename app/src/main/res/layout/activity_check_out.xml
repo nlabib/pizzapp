@@ -26,9 +26,9 @@
                 android:id="@+id/toogle"
                 android:layout_width="28sp"
                 android:layout_height="28sp"
-                app:tint="#FDBB30"
                 android:backgroundTint="@color/white"
-                android:src="@drawable/menus" />
+                android:src="@drawable/menus"
+                app:tint="#FDBB30" />
 
             <TextView
                 android:layout_width="wrap_content"
