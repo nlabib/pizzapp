@@ -8,11 +8,12 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
 
+import com.example.prototype.utils.Constants;
+import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.navigation.NavigationView;
 
 import kotlinx.coroutines.ObsoleteCoroutinesApi;
@@ -24,20 +25,27 @@ public class MainActivity extends AppCompatActivity {
     NavigationView navigationView;
     androidx.appcompat.widget.Toolbar toolbar;
 
+    MaterialCardView Order;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Constants.checkApp(this);
         //Hooks//
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         toolbar = findViewById(R.id.toolbar_home);
+        Order = findViewById(R.id.order);
 
         //toolbar//
 
         setSupportActionBar(toolbar);
+
+        Order.setOnClickListener(v -> {
+            startActivity(new Intent(this, OrderActivity.class));
+        });
 
 
         //navigation menu//

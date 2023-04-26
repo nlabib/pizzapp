@@ -1,22 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test.services:storage:1.4.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/b8a3cec3782b8b5ba50db858f6f46e85/transformed/storage-1.4.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/b8a3cec3782b8b5ba50db858f6f46e85/transformed/storage-1.4.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9bcbfc66ba25e762e60166dde2c13d55/transformed/storage-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/247996662899f51dfb31c3bc953b204d/transformed/storage-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1c268c2fbb8e136b06c604ed169b65ae/transformed/storage-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f162149ae9cd39a81e56f790a73327c7/transformed/storage-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f162149ae9cd39a81e56f790a73327c7/transformed/storage-1.4.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f162149ae9cd39a81e56f790a73327c7/transformed/storage-1.4.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/dc61f4281c2e3a48180eafa640c99cf8/transformed/storage-1.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Documents/ItalianOwlsPizza/caches/transforms-3/dc61f4281c2e3a48180eafa640c99cf8/transformed/storage-1.4.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.2/edb6438b0e7e21c66b22184eebdb13cd5167161a/storage-1.4.2-javadoc.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.2/edb6438b0e7e21c66b22184eebdb13cd5167161a/storage-1.4.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/Documents/ItalianOwlsPizza/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.2/7653e58ad020a74392900229f15971ffb69d57ea/storage-1.4.2-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.2/7653e58ad020a74392900229f15971ffb69d57ea/storage-1.4.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

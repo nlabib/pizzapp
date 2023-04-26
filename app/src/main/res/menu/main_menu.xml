@@ -28,11 +28,11 @@
 
     </group>
 
-        <item android:title="Profile">
+    <item android:title="Profile">
 
-            <menu>
+        <menu>
 
-                <group android:checkableBehavior="single">
+            <group android:checkableBehavior="single">
 
                 <item
                     android:title="Sign In"
@@ -50,9 +50,9 @@
                     android:icon="@drawable/favorite_icon"
                     android:title="Favorites" />
 
-                </group>
+            </group>
 
-            </menu>
-        </item>
+        </menu>
+    </item>
 
 </menu>

@@ -27,7 +27,6 @@
             android:layout_height="match_parent"
             tools:ignore="ScrollViewSize">
 
-
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar_home"
                 android:layout_width="match_parent"
@@ -38,7 +37,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:navigationIcon="@drawable/menunav_icon" />
+                app:navigationIcon="@drawable/menus" />
 
             <TextView
                 android:id="@+id/textStoreName"
@@ -89,7 +88,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/italianOwlLogo">
 
-                <androidx.cardview.widget.CardView
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/order"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
@@ -123,7 +123,7 @@
 
                     </RelativeLayout>
 
-                </androidx.cardview.widget.CardView>
+                </com.google.android.material.card.MaterialCardView>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
@@ -146,7 +146,7 @@
                             android:text="Track"
                             android:textColor="#120F0F"
                             android:textSize="30sp" />
-//Project
+
                         <ImageView
                             android:id="@+id/imageTrack"
                             android:layout_width="99dp"
